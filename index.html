@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenApi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple-v1.css" />
+  </head>
+  <body>
+    <label for="idInstance">ID Instance:</label>
+    <input type="text" id="idInstance" name="idInstance" />
+    <label for="apiTokenInstance">Api Token Instance:</label>
+    <input type="text" id="apiTokenInstance" name="apiTokenInstance" />
+    <button id="getSettings">Get Settings</button>
+
+    <button id="getStateInstance">Get State Instance</button>
+
+    <label for="phoneNumberMessage">Phone Number:</label>
+    <input type="text" id="phoneNumberMessage" name="phoneNumberMessage" />
+    <label for="message">Message:</label>
+    <input type="text" id="message" name="message" />
+    <button id="sendMessage">Send Message</button>
+
+    <label for="phoneNumberFile">Phone Number:</label>
+    <input type="text" id="phoneNumberFile" name="phoneNumberFile" />
+    <label for="fileUrl">File URL:</label>
+    <input type="text" id="fileUrl" name="fileUrl" />
+    <button id="sendFileByUrl">Send File by URL</button>
+
+    <h2>Server Response</h2>
+    <textarea id="serverResponse" readonly></textarea>
+    <div id="mapholder"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
